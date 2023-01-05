@@ -1,0 +1,31 @@
+.wpsc_timer
+  color: #000
+  text-align: left
+  background-color: #fff
+  display: block
+  min-width: 200px
+  font-size: 90%
+  margin-bottom: 5px
+  margin-top: 3px
+  &.list
+    min-width: 100px
+    margin: 0
+    font-size: 11px
+  &, .meter
+    border-radius: 5px
+  .meter
+    vertical-align: top
+    min-width: 55px
+    display: inline-block
+    padding: 1px 0px 1px 4px
+    color: white
+    font-weight: bold
+  &.wpsc_green
+    .meter
+      background-color: #10d507
+  &.wpsc_yellow
+    .meter
+      background-color: #fe7f01
+  &.wpsc_red
+    .meter
+      background-color: #fc171d
